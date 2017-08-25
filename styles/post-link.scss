@@ -1,0 +1,21 @@
+@import 'normalize.css';
+
+$primary-color: red;
+
+้h1 {
+  font-size: xx-large;
+  color: $primary-color;
+}
+
+li {
+  list-style: none;
+  margin: 5px 0;
+  a {
+    text-decoration: none;
+    color: #999;
+    font-family: "Arial";
+    &:hover{
+      opacity: 0.6;
+    }
+  }
+}
